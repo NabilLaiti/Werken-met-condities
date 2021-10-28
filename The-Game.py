@@ -20,7 +20,7 @@ def main():
     time.sleep(3)
 
 
-    print("Je gaat de baas berofen van zijn geld maak geen domme keuzes!")
+    print("Je gaat de baas van de vijand berofen van zijn geld maak geen domme keuzes!")
     print("-------------------------------------------------------------------")
     time.sleep(3)
 
@@ -112,7 +112,7 @@ def main():
 
 
 
-    print("Je hebt je missie voltooid kies nog 1 laatste opdracht voodat je op pensioen mag!")
+    print("Je hebt je missie voltooid kies nog een opdracht!")
     antwoord = input("1. Grote Bank\n2. Winkeloverval\n3. Juwelier\n")
     if antwoord == "1":
      print("Je hebt niet genoeg gijzelaars kunne vinden en bent ontslagen!")
@@ -126,7 +126,22 @@ def main():
      print("-------------------------------------------------------------------")
      if antwoord == "3":
       print("Je bent gevallen en breekt je teen!")
-     return True
+
+
+    print("Je gaat nu een keuze maken kies goed!")
+    antwoord = input("1. Vermoord de baas\n2. Ga op pensioen\n")
+    if antwoord == "1":
+     print("Je hebt de baas vermoord en steelt al zijn geld en gaat op pensioen!")
+     return False
+    if antwoord == "2":
+     print("Je kiest ervoor om je baas niet te beroven dus ga je op pensioen met weining geld!")
+     print("-------------------------------------------------------------------")
+     
+     time.sleep(1)
+
+
+
+
     
     print("-------------------------------------------------------------------")
 
